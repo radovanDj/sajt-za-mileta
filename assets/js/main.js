@@ -126,10 +126,13 @@
 	// Nav Panel.
 
 		// Toggle.
-			$navPanelToggle = $(
-				'<a href="#navPanel" id="navPanelToggle">Menu</a>'
-			)
-				.appendTo($wrapper);
+		
+		
+		//ovo sam zakomentarisao zato sto nemamo meni pa nam ovo nje potrebno
+			//$navPanelToggle = $(
+				//'<a href="#navPanel" id="navPanelToggle">Menu</a>'
+			//)
+				//.appendTo($wrapper);
 
 			// Change toggle styling once we've scrolled past the header.
 				$header.scrollex({
